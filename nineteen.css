@@ -1,0 +1,102 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgba(43, 13, 177, 0.897);
+}
+li
+{
+    list-style: none;
+    font-size:20px;
+    display:inline;
+    padding:20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover
+{
+    color: rgb(18, 207, 135);
+}
+.nav
+{
+    width:70%;
+    height:60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo
+{
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+.nav .links{
+    display: flex;
+    gap:2 rem;
+    color: grey;
+
+}
+#btn
+{
+    border-radius: 7px;
+   font-size:15px;
+background-color: rgb(18, 207, 135);
+color:white;
+margin-left: 300px;
+    width:150px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height:30px;
+     margin-top: 50px;
+
+}
+.main1
+{
+    width:50%;
+    float:left;
+}
+.main2
+{
+    width:50%;
+    float:right;
+
+}
+h1{
+    width:600px;
+    margin-left: 200px;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+p{
+    width:500px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+}
+#tc
+{
+    margin-left: 320px;
+    font-size: 15px;
+}
+.video
+{
+    width:fit-content;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+
